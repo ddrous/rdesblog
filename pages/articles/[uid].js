@@ -9,6 +9,8 @@ import { Bounded } from "../../components/Bounded";
 import { Heading } from "../../components/Heading";
 import { HorizontalDivider } from "../../components/HorizontalDivider";
 
+<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=rdesblog"></script>
+
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric",
