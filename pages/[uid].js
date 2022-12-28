@@ -6,6 +6,8 @@ import { createClient } from "../prismicio";
 import { components } from "../slices";
 import { Layout } from "../components/Layout";
 
+<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=rdesblog"></script>
+
 const Page = ({ page, navigation, settings }) => {
   return (
     <Layout navigation={navigation} settings={settings}>
